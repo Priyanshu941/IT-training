@@ -1,0 +1,75 @@
+/*the tag selector*/
+body {
+  background-color: rgb(250, 143, 11);
+}
+
+img {
+  width: 200px;
+}
+
+p {
+  color: rgb(140, 92, 92);
+}
+
+/*dimension:px,%, em */
+/* color :name ,*/
+
+/*class selector*/
+.first_para {
+  color: red
+}
+
+.red_apple {
+  background-color: black;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+/*ID selector*/
+#special {
+  font-weight: bold;
+  color: blue;
+  background-color: aquamarine;
+}
+
+.ekgroup,
+h1 {
+  font-weight: bold;
+  color: blue;
+  background-color: aquamarine;
+}
+
+/*psudo selector*/
+.apple {
+  color: brown;
+}
+
+.apple:hover {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+/*div and display*/
+.firstbox {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+
+}
+
+.secondbox {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+  margin-left: 100px;
+}
+
+.thirdbox {
+  background-color: rgb(231, 17, 81);
+  height: 100px;
+  width: 100px;
+  margin-left: 200px;
+  margin-block-start: -200px;
+}
