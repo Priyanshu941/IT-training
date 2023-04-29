@@ -1,0 +1,99 @@
+:root {
+  --primaryColor: #5B8FB9;
+  --backgroundColor: #B6EADA;
+  --titleFont: 'Sacramento', cursive;
+  --secondaryColor: #03001C;
+  --thirdColor: #301E67;
+  --fourthColor: #0A4D68;
+}
+
+body {
+  background-color: aquamarine;
+  margin: 0px;
+  color: var(--fourthColor);
+}
+
+.heading_group {
+  margin-top: 50px;
+  display: inline-block;
+  margin-left: 320px;
+
+}
+
+.top_section {
+  color: var(--backgroundColor);
+  background-color: var(--backgroundColor);
+  text-align: center;
+  height: 400px;
+}
+
+.intro {
+  line-height: 2;
+  margin: auto;
+  width: 50%;
+
+}
+
+hr {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: dotted 3px;
+  border-top: none;
+  width: 5%;
+}
+
+.middle_sec {
+  margin: 50px auto 100px;
+  text-align: center;
+  width: 75%;
+
+}
+
+.heading {
+  font-size: 4.6rem;
+  color: var(--secondaryColor);
+  font-family: var(--titleFont)
+}
+
+.bio {
+  color: var(--primaryColor);
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+}
+
+.top_cloud {
+  width: 100px;
+  position: absolute;
+  margin-left: 250px;
+
+}
+
+.bottom_cloud {
+  width: 110px;
+}
+
+.rainbow {
+  width: 400px;
+}
+
+.profile_pic {
+  border-radius: 100%;
+  width: 200px;
+  margin: 100px auto 50px;
+  display: block;
+}
+
+.code {
+  width: 150px;
+  margin-left: -45pc;
+}
+
+.cin {
+  /* align-items: center; */
+
+  line-height: 2;
+  margin-top: -12pc;
+  margin-left: 270px;
+  width: 50%;
+
+}
