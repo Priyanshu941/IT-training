@@ -85,15 +85,64 @@ hr {
 
 .code {
   width: 150px;
-  margin-left: -45pc;
+  margin-left: -45px;
 }
 
-.cin {
-  /* align-items: center; */
+.left {
+  float: left;
+  margin-right: 40px;
+}
 
-  line-height: 2;
-  margin-top: -12pc;
-  margin-left: 270px;
-  width: 50%;
+.right {
+  float: right;
+  margin-left: 40px;
+}
 
+.skill_row {
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: #0A4D68;
+}
+
+.Contact {
+  background-color: var(--backgroundColor);
+  font-size: 1.75rem;
+  padding: 10px 20px;
+  border-radius: 15px;
+
+}
+
+.Contact:hover {
+  background-color: #5B8FB9;
+
+}
+
+.bottom_sec {
+  margin: 0px auto;
+  padding: 80px auto;
+  text-align: center;
+  background-color: var(--backgroundColor)
+}
+
+.social {
+  padding: 40px 0px;
+}
+
+.social-link {
+  margin: 0px 40px;
+}
+
+.copyright {
+  margin: 0;
+  padding-bottom: 40px;
+  color: var(--fourthColor);
+  font-size: 1.75rem;
+}
+
+.social-link:hover {
+  color: var(--thirdColor);
 }
