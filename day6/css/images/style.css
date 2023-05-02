@@ -116,8 +116,13 @@ a {
 
 }
 
+
+.shift {
+  margin-left: 180px;
+}
+
 .Contact:hover {
-  background-color: #5B8FB9;
+  background-color: #032440;
 
 }
 
