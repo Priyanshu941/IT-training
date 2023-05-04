@@ -1,0 +1,131 @@
+body {
+  background-color: #8294C4;
+  text-align: center;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  display: inline block;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.black {
+  background-color: black;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.pink {
+  background-color: pink;
+}
+
+@media screen and (min-width:1000px) {
+  body {
+    background-color: #5F264A;
+  }
+}
+
+@media screen and (min-width:700px) and (max-width:900px) {
+  body {
+    background-color: burlywood;
+  }
+}
+
+@media screen and (max-width:800px) {
+  div {
+    display: inline-block;
+  }
+
+}
+
+@media screen and (min-width:320px) and (max-width:480) {
+  .red {
+    background-color: blue;
+  }
+
+}
+
+@media screen and (min-width:480px) and (max-width:768) {
+  .red {
+    background-color: orange;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+  .red {
+    background-color: yellow;
+  }
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px) {
+  .red {
+    background-color: brown;
+  }
+}
+
+@media screen and (min-width:1200px) and (max-width:1300px) {
+  .red {
+    background-color: red;
+  }
+}
+
+@media screen and (prefers-color-scheme:dark) {
+  body {
+    background-color: deepskyblue;
+  }
+
+}
+
+@media screen and (orientation:landscape) {
+  body {
+    background-color: olivedrab;
+  }
+
+}
+
+@media screen and (orientation:portrait) {
+  body {
+    background-color: #66347F;
+  }
+
+}
+
+/* media queries humesha last mai lagti hai 
+mobile device 320px-480px
+ipads tablet 480px-768px
+small sc lap 769px-1024px
+desktop large sc 1025px-1200px
+extra large sc tv 1201px and more*/
