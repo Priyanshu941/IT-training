@@ -1,0 +1,15 @@
+.cont {
+  background-color: #FEFF86;
+  width: 300px;
+  height: 600px;
+  align-content: center;
+  display: inline-block;
+  margin-left: 20px;
+  text-align: center;
+
+}
+
+body {
+  background-color: #99A98F;
+  margin-left: 20px;
+}

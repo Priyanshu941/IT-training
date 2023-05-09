@@ -22,6 +22,7 @@ body {
 
 .red {
   background-color: red;
+  order: 2;
 }
 
 .green {
@@ -31,15 +32,18 @@ body {
 .blue {
   background-color: blue;
   width: 300px;
+  flex-grow: 4;
 }
 
 .yellow {
   background-color: yellow;
   height: 300px;
+  flex-grow: 4;
 }
 
 .black {
   background-color: black;
+  order: 2;
 }
 
 .orange {
