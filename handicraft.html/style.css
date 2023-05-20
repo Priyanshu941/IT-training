@@ -1,0 +1,22 @@
+.name {
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+}
+
+.des {
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+}
+
+body {
+  background-color: #ADE4DB;
+}
+
+.image {
+  height: 230px;
+  width: 330px;
+}
+
+main {
+  background-color: #ADE4DB;
+}
